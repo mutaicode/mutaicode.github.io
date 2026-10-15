@@ -1,0 +1,5 @@
+# Uploaded files are intended to be images, never executable scripts.
+Options -Indexes
+<FilesMatch "\.(php[0-9]?|phtml|phar|cgi|pl|asp|aspx|jsp)$">
+    Require all denied
+</FilesMatch>
